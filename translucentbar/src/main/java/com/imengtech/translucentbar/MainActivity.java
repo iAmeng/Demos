@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent translucentBarIntent = new Intent(this, ImageTranslucentBarActivity.class);
             startActivity(translucentBarIntent);
 
+
         } else if (viewId == R.id.btn_color_translucent) {
             Intent translucentBarIntent = new Intent(this, ColorTranslucentBarActivity.class);
             startActivity(translucentBarIntent);
