@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" filepath="$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Animation/Animation.iml" filepath="$PROJECT_DIR$/Animation/Animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Demos.iml" filepath="$PROJECT_DIR$/.idea/Demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydemos.iml" filepath="$PROJECT_DIR$/mydemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/translucentbar/translucentbar.iml" filepath="$PROJECT_DIR$/translucentbar/translucentbar.iml" />
     </modules>
