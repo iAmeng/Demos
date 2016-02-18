@@ -1,4 +1,4 @@
-package imeng.mytoolbar;
+package imeng.toolbar;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package imeng.mytoolbar;
+package imeng.toolbar;
 
 import org.junit.Test;
 

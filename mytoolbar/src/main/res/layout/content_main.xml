@@ -10,11 +10,45 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="imeng.mytoolbar.MainActivity"
+    tools:context="imeng.toolbar.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="toolbar_a_toolbar代替Actionbar"/>
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/btn_a"
+        android:text="单独使用Toolbar"/>
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/btn_b"
+        android:text="Title居中 "/>
+
+    <Button
+        android:id="@+id/btn_d"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/btn_c"
+        android:text="右边加icon "/>
+
+    <Button
+        android:id="@+id/btn_e"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/btn_d"
+        android:text="自定义Toolbar"/>
 </RelativeLayout>

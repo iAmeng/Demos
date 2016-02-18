@@ -1,15 +1,16 @@
-package imeng.mytoolbar;
+package imeng.toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        findViewById(R.id.btn_a).setOnClickListener(this);
+        findViewById(R.id.btn_b).setOnClickListener(this);
+        findViewById(R.id.btn_c).setOnClickListener(this);
+        findViewById(R.id.btn_d).setOnClickListener(this);
+        findViewById(R.id.btn_e).setOnClickListener(this);
     }
 
     @Override
@@ -48,5 +55,39 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+        int id = v.getId();
+
+        switch (id) {
+            case R.id.btn_a:
+                Intent intentA = new Intent(this, AtyToolbarA.class);
+                startActivity(intentA);
+                break;
+            case R.id.btn_b:
+                Intent intentB = new Intent(this, AtyToolbarB.class);
+                startActivity(intentB);
+                break;
+            case R.id.btn_c:
+                Intent intentC = new Intent(this, AtyToolbarC.class);
+                startActivity(intentC);
+                break;
+
+            case R.id.btn_d:
+                Intent intentD = new Intent(this, AtyToolbarD.class);
+                startActivity(intentD);
+                break;
+
+            case R.id.btn_e:
+                Intent intentE = new Intent(this, AtyToolbarE.class);
+                startActivity(intentE);
+                break;
+
+            default:
+                break;
+        }
+
     }
 }
