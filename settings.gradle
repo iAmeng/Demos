@@ -1,1 +1,1 @@
-include ':Animation', ':translucentbar', ':AndroidSystemUiTraining-master', ':toolbar'
+include ':Animation', ':translucentbar', ':AndroidSystemUiTraining-master'
