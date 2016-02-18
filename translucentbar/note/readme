@@ -1,0 +1,7 @@
+Android App 状态栏设置.
+[a] http://www.jianshu.com/p/0acc12c29c1b  在sdk19上 颜色状态栏不好用.
+[b] http://gundumw100.iteye.com/blog/2245790
+
+- iamge模式,适合app中没有导航栏，且整体的背景是一张图片的界面；
+- color模式适用于app中导航栏颜色为纯色的界面；
+- android:fitsSystemWindows设置要在布局文件中，不要到theme中设置；
