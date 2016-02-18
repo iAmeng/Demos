@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
 
+
         int viewId = v.getId();
         if (viewId == R.id.btn_image_translucent) {
             Intent translucentBarIntent = new Intent(this, ImageTranslucentBarActivity.class);
