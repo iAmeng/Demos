@@ -16,6 +16,10 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?actionBarSize"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TxtVtxT"/>
     </android.support.v7.widget.Toolbar>
 
 </LinearLayout>
