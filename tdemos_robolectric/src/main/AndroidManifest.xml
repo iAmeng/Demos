@@ -6,9 +6,19 @@
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
     android:theme="@style/Theme.MyTheme">
-    <activity
-        android:name=".activity.MainActivity"
-        android:label="@string/title_activity_main" />
+
+      <activity
+        android:name=".activity.SampleActivity"
+        android:label="@string/title_activity_simple">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
+
     <activity
         android:name=".activity.LoginActivity"
         android:label="@string/title_activity_login" />
@@ -32,13 +42,8 @@
     </receiver>
 
     <activity
-        android:name=".activity.SampleActivity"
+        android:name=".activity.MainActivity"
         android:label="@string/title_activity_simple">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
     </activity>
 
     <receiver

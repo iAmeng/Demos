@@ -1,1 +1,1 @@
-include ':Animation', ':translucentbar', ':AndroidSystemUiTraining-master'
+include ':tdemos', ':tdemos_robolectric', ':translucentbar', ':mytoolbar', ':Animation', ':AndroidSystemUiTraining-master', ':cordinatorlayoutdemo', ':utilslib', ':utilslib4android', ':holocolor'

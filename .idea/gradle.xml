@@ -11,7 +11,14 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AndroidSystemUiTraining-master" />
             <option value="$PROJECT_DIR$/Animation" />
+            <option value="$PROJECT_DIR$/cordinatorlayoutdemo" />
+            <option value="$PROJECT_DIR$/holocolor" />
+            <option value="$PROJECT_DIR$/mytoolbar" />
+            <option value="$PROJECT_DIR$/tdemos" />
+            <option value="$PROJECT_DIR$/tdemos_robolectric" />
             <option value="$PROJECT_DIR$/translucentbar" />
+            <option value="$PROJECT_DIR$/utilslib" />
+            <option value="$PROJECT_DIR$/utilslib4android" />
           </set>
         </option>
       </GradleProjectSettings>
