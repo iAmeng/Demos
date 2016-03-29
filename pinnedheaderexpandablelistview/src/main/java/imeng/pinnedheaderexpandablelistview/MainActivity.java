@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         expandableListView = (PinnedHeaderExpandableListView) findViewById(R.id.expandablelist);
