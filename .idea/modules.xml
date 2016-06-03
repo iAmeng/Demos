@@ -4,11 +4,19 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" filepath="$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Animation/Animation.iml" filepath="$PROJECT_DIR$/Animation/Animation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Demos.iml" filepath="$PROJECT_DIR$/.idea/Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demos.iml" filepath="$PROJECT_DIR$/Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidstandardwidgetdemos/androidstandardwidgetdemos.iml" filepath="$PROJECT_DIR$/androidstandardwidgetdemos/androidstandardwidgetdemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atyandfragmentcommunacation/atyandfragmentcommunacation.iml" filepath="$PROJECT_DIR$/atyandfragmentcommunacation/atyandfragmentcommunacation.iml" />
       <module fileurl="file://$PROJECT_DIR$/cordinatorlayoutdemo/cordinatorlayoutdemo.iml" filepath="$PROJECT_DIR$/cordinatorlayoutdemo/cordinatorlayoutdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edittextpropterty/edittextpropterty.iml" filepath="$PROJECT_DIR$/edittextpropterty/edittextpropterty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effectivejava/effectivejava.iml" filepath="$PROJECT_DIR$/effectivejava/effectivejava.iml" />
       <module fileurl="file://$PROJECT_DIR$/holocolor/holocolor.iml" filepath="$PROJECT_DIR$/holocolor/holocolor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mydemos.iml" filepath="$PROJECT_DIR$/mydemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javafundation/javafundation.iml" filepath="$PROJECT_DIR$/javafundation/javafundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanary/leakcanary.iml" filepath="$PROJECT_DIR$/leakcanary/leakcanary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mytoolbar/mytoolbar.iml" filepath="$PROJECT_DIR$/mytoolbar/mytoolbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinnedheaderexpandablelistview/pinnedheaderexpandablelistview.iml" filepath="$PROJECT_DIR$/pinnedheaderexpandablelistview/pinnedheaderexpandablelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxserialdemo/rxserialdemo.iml" filepath="$PROJECT_DIR$/rxserialdemo/rxserialdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singlestonedemo/singlestonedemo.iml" filepath="$PROJECT_DIR$/singlestonedemo/singlestonedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdemos/tdemos.iml" filepath="$PROJECT_DIR$/tdemos/tdemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdemos_robolectric/tdemos_robolectric.iml" filepath="$PROJECT_DIR$/tdemos_robolectric/tdemos_robolectric.iml" />
       <module fileurl="file://$PROJECT_DIR$/translucentbar/translucentbar.iml" filepath="$PROJECT_DIR$/translucentbar/translucentbar.iml" />
