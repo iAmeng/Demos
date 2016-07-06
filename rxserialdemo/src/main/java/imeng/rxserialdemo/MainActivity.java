@@ -1,5 +1,6 @@
 package imeng.rxserialdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +11,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import imeng.rxserialdemo.retrofit.AtyRetrofit;
 import rx.Subscription;
 import rx.functions.Action1;
 import rx.subscriptions.CompositeSubscription;
@@ -21,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -35,6 +41,21 @@ public class MainActivity extends AppCompatActivity {
 
         rxBusObservers();
         rxBusPost();
+    }
+
+    @OnClick(R.id.call_rt_bt)
+    public void click(View v) {
+        int vid = v.getId();
+        switch (vid) {
+            case R.id.call_rt_bt:
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, AtyRetrofit.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
+        }
+
     }
 
     @Override

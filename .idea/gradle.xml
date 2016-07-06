@@ -5,18 +5,20 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="1.7" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AndroidSystemUiTraining-master" />
             <option value="$PROJECT_DIR$/Animation" />
             <option value="$PROJECT_DIR$/androidstandardwidgetdemos" />
+            <option value="$PROJECT_DIR$/appwidget" />
             <option value="$PROJECT_DIR$/atyandfragmentcommunacation" />
             <option value="$PROJECT_DIR$/cordinatorlayoutdemo" />
+            <option value="$PROJECT_DIR$/customviews" />
             <option value="$PROJECT_DIR$/edittextpropterty" />
             <option value="$PROJECT_DIR$/effectivejava" />
             <option value="$PROJECT_DIR$/holocolor" />
+            <option value="$PROJECT_DIR$/intentargs" />
             <option value="$PROJECT_DIR$/javafundation" />
             <option value="$PROJECT_DIR$/leakcanary" />
             <option value="$PROJECT_DIR$/mytoolbar" />
@@ -25,9 +27,42 @@
             <option value="$PROJECT_DIR$/singlestonedemo" />
             <option value="$PROJECT_DIR$/tdemos" />
             <option value="$PROJECT_DIR$/tdemos_robolectric" />
+            <option value="$PROJECT_DIR$/templatesused" />
             <option value="$PROJECT_DIR$/translucentbar" />
             <option value="$PROJECT_DIR$/utilslib" />
             <option value="$PROJECT_DIR$/utilslib4android" />
+            <option value="$PROJECT_DIR$/weakreferenceused" />
+            <option value="$PROJECT_DIR$/weakreferenceusednew" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AndroidSystemUiTraining-master" />
+            <option value="$PROJECT_DIR$/Animation" />
+            <option value="$PROJECT_DIR$/androidstandardwidgetdemos" />
+            <option value="$PROJECT_DIR$/appwidget" />
+            <option value="$PROJECT_DIR$/atyandfragmentcommunacation" />
+            <option value="$PROJECT_DIR$/cordinatorlayoutdemo" />
+            <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/edittextpropterty" />
+            <option value="$PROJECT_DIR$/effectivejava" />
+            <option value="$PROJECT_DIR$/holocolor" />
+            <option value="$PROJECT_DIR$/intentargs" />
+            <option value="$PROJECT_DIR$/javafundation" />
+            <option value="$PROJECT_DIR$/leakcanary" />
+            <option value="$PROJECT_DIR$/mytoolbar" />
+            <option value="$PROJECT_DIR$/pinnedheaderexpandablelistview" />
+            <option value="$PROJECT_DIR$/rxserialdemo" />
+            <option value="$PROJECT_DIR$/singlestonedemo" />
+            <option value="$PROJECT_DIR$/tdemos" />
+            <option value="$PROJECT_DIR$/tdemos_robolectric" />
+            <option value="$PROJECT_DIR$/templatesused" />
+            <option value="$PROJECT_DIR$/translucentbar" />
+            <option value="$PROJECT_DIR$/utilslib" />
+            <option value="$PROJECT_DIR$/utilslib4android" />
+            <option value="$PROJECT_DIR$/weakreferenceused" />
+            <option value="$PROJECT_DIR$/weakreferenceusednew" />
           </set>
         </option>
       </GradleProjectSettings>
