@@ -1,4 +1,4 @@
-package imeng.rxserialdemo.retrofit;
+package imeng.rxserialdemo.retrofit.api;
 
 import java.util.List;
 

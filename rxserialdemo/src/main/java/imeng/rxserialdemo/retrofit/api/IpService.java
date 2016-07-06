@@ -1,4 +1,4 @@
-package imeng.rxserialdemo.retrofit;
+package imeng.rxserialdemo.retrofit.api;
 
 import imeng.rxserialdemo.retrofit.api.response.GetIpInfoResponse;
 import retrofit2.Call;
