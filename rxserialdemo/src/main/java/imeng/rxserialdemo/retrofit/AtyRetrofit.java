@@ -10,6 +10,8 @@ import java.util.List;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import imeng.rxserialdemo.R;
+import imeng.rxserialdemo.retrofit.api.response.GetIpInfoResponse;
+import imeng.rxserialdemo.retrofit.api.response.GitHubInfoResponse;
 import imeng.utilslib4android.utils.L;
 import imeng.utilslib4android.utils.T;
 import retrofit2.Call;

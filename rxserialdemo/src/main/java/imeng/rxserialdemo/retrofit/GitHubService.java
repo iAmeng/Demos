@@ -2,6 +2,7 @@ package imeng.rxserialdemo.retrofit;
 
 import java.util.List;
 
+import imeng.rxserialdemo.retrofit.api.response.GitHubInfoResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

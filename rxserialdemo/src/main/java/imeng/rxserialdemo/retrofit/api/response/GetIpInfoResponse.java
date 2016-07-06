@@ -1,4 +1,6 @@
-package imeng.rxserialdemo.retrofit;
+package imeng.rxserialdemo.retrofit.api.response;
+
+import imeng.rxserialdemo.retrofit.api.model.IpInfo;
 
 /**
  * @Author : Administrator
