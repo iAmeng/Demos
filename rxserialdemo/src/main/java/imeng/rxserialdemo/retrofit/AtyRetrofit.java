@@ -36,7 +36,7 @@ public class AtyRetrofit extends AppCompatActivity {
     }
 
     //@OnClick(R.id.retrofit_a_bt)
-    @OnClick({R.id.retrofit_a_bt, R.id.retrofit_b_bt})
+    @OnClick({R.id.retrofit_a_bt, R.id.retrofit_b_bt, R.id.retrofit_c_bt})
     public void click(View v) {
         int vid = v.getId();
         switch (vid) {
@@ -47,6 +47,10 @@ public class AtyRetrofit extends AppCompatActivity {
             case R.id.retrofit_b_bt:
                 T.showLong(this, "b");
                 callIpInfoRetrofit();
+                break;
+            case R.id.retrofit_c_bt:
+                callDDApi();
+                break;
             default:
                 break;
         }
@@ -119,6 +123,10 @@ public class AtyRetrofit extends AppCompatActivity {
                 t.printStackTrace();
             }
         });
+
+    }
+
+    public void callDDApi() {
 
     }
 
