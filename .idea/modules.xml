@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/leakcanary/leakcanary.iml" filepath="$PROJECT_DIR$/leakcanary/leakcanary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mytoolbar/mytoolbar.iml" filepath="$PROJECT_DIR$/mytoolbar/mytoolbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinnedheaderexpandablelistview/pinnedheaderexpandablelistview.iml" filepath="$PROJECT_DIR$/pinnedheaderexpandablelistview/pinnedheaderexpandablelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit2/retrofit2.iml" filepath="$PROJECT_DIR$/retrofit2/retrofit2.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxserialdemo/rxserialdemo.iml" filepath="$PROJECT_DIR$/rxserialdemo/rxserialdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/singlestonedemo/singlestonedemo.iml" filepath="$PROJECT_DIR$/singlestonedemo/singlestonedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdemos/tdemos.iml" filepath="$PROJECT_DIR$/tdemos/tdemos.iml" />

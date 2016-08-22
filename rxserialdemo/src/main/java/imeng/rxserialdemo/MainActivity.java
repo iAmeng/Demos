@@ -14,6 +14,8 @@ import android.view.View;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import imeng.rxserialdemo.retrofit.AtyRetrofit;
+import imeng.rxserialdemo.rxjavademo.RxActivity;
+import imeng.utilslib4android.utils.L;
 import rx.Subscription;
 import rx.functions.Action1;
 import rx.subscriptions.CompositeSubscription;
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        L.isDebug = true;
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
@@ -43,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         rxBusPost();
     }
 
-    @OnClick(R.id.call_rt_bt)
+    @OnClick({R.id.call_rt_bt, R.id.call_rx_aty})
     public void click(View v) {
         int vid = v.getId();
         switch (vid) {
@@ -51,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, AtyRetrofit.class);
                 startActivity(intent);
+                break;
+            case R.id.call_rx_aty:
+                Intent intent_1 = new Intent();
+                intent_1.setClass(MainActivity.this, RxActivity.class);
+                startActivity(intent_1);
                 break;
             default:
                 break;

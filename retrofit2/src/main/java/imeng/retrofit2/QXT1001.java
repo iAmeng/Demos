@@ -1,4 +1,4 @@
-package imeng.rxserialdemo.retrofit.api;
+package imeng.retrofit2;
 
 import java.util.Map;
 
@@ -9,8 +9,6 @@ import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
-import imeng.rxserialdemo.retrofit.api.params.QXT1001Body;
-import imeng.rxserialdemo.retrofit.api.response.Qxt1001Response;
 
 /**
  * @Author : Administrator

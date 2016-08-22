@@ -20,6 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"/>
 
+    <Button
+        android:id="@+id/retrofit_c_bt"
+        android:text="call dd api"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
 
 
 </LinearLayout>

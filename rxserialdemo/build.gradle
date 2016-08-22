@@ -34,10 +34,24 @@ dependencies {
     compile 'io.reactivex:rxjava:1.1.0'
 //    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
     //for retrofit
+
+//    compile 'com.squareup.okhttp:okhttp:3.3.0'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 
     //for butterknife
     compile 'com.jakewharton:butterknife:8.0.1'
     apt 'com.jakewharton:butterknife-compiler:8.0.1'
+
+    final RETROFIT_VERSION = '2.0.0'
+    final OKHTTP_VERSION = '3.2.0'
+
+//    compile "com.squareup.retrofit2:retrofit:$RETROFIT_VERSION"
+//    compile "com.squareup.retrofit2:converter-gson:$RETROFIT_VERSION"
+//    compile "com.squareup.okhttp3:okhttp:$OKHTTP_VERSION"
+//    compile "com.squareup.okhttp3:okhttp-urlconnection:$OKHTTP_VERSION"
+//
+    compile 'com.google.code.gson:gson:2.7'
+
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
 }
