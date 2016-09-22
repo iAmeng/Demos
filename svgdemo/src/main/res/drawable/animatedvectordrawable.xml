@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/animation_svg_a">
+
+    <!--drawbale 是动画源-->
+
+    <target
+        android:name="rotationGroup"
+        android:animation="@animator/rotationa" />
+
+    <target
+       android:name="v"
+       android:animation="@animator/path_morph" />
+
+    <target
+       android:name="va"
+       android:animation="@animator/rotationa" />
+</animated-vector>

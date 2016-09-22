@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+vector :
+height : 定义Vector的高, 图片大小还是在Imageview里边设置的。 vector会填满图片。
+width  : 定义图片的宽 , 图片大小还是在Imageview里边设置的。 vector会填满图片。
+viewportHeight : 定义图片被划分的比例大小-高。
+viewportWidth : 定义图片被划分的比例大小-宽
+
+以上四个数值 形成一个坐标系的范围 和 Step Unit。
+
+例如例子中的600，即把128dp大小的图像划分成600份，
+后面Path标签中的坐标，就全部使用的是这里划分后的坐标系统。
+
+
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:height="200dp"
+        android:width="200dp"
+        android:viewportHeight="800"
+        android:viewportWidth="800" >
+    <!--
+    group:
+    name : 动画需要查找的handle
+    pivotX : grouo的中心点X 0 - 在Vector的X坐标。 group动画的参考中心坐标就是这个。
+    pivotY : grouo的中心点Y 0 - 在Vector的Y坐标。
+    rotation : 初始角度
+    由于 path 没有 transX， transY的属性 ， 所以用group包起来。
+    -->
+    <group
+        android:name="rotationGroup"
+        android:pivotX="100.0"
+        android:pivotY="100.0"
+        android:rotation="0.0" >
+        <!--这是个三角
+        pathData 的数值是 在Vector的坐标系统内显示的.
+        -->
+        <path
+            android:name="v"
+            android:fillColor="#00ff00"
+            android:pathData="M300,70 l 0,-70 70,70 0,0 -70,70z" />
+        <path
+            android:name="va"
+            android:fillColor="#ff0000"
+            android:pathData="M300,70 l 0,-70 70,70 0,0 -70,180z" />
+
+        <path
+            android:name="square"
+            android:fillColor="#000000"
+            android:pathData="M100,100 L400,100 L400,400 L100,400 z"/>
+     <!--    <path
+            android:name="vb"
+            android:fillColor="#ff00ff"
+            android:pathData="M511.674077 0C229.550605 0 0.020978 229.53065 0.020978 511.653099c0 282.123472 229.529627 511.653099 511.653099 511.653099s511.653099-229.529627 511.653099-511.653099C1023.327176 229.53065 793.797549 0 511.674077 0zM511.674077 947.506838C271.355733 947.506838 75.821361 751.989863 75.821361 511.653099 75.821361 271.325545 271.355733 75.800383 511.674077 75.800383c240.336764 0 435.852716 195.525162 435.852716 435.852716C947.526793 751.989863 752.010841 947.506838 511.674077 947.506838zM713.611276 331.923692 434.521906 610.993618 290.398438 466.878336c-14.805194-14.805194-38.806841-14.805194-53.592592 0-14.805194 14.794961-14.805194 38.797631 0 53.602825l170.920788 170.902368c7.401574 7.402597 17.099447 11.103896 26.796296 11.103896 9.697873 0 19.413142-3.700275 26.797319-11.103896l305.885666-305.866223c14.805194-14.794961 14.805194-38.797631 0-53.592592C752.41914 317.118498 728.397027 317.118498 713.611276 331.923692z" /> -->
+    </group>
+</vector>
