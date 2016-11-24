@@ -17,16 +17,20 @@
       <module fileurl="file://$PROJECT_DIR$/javafundation/javafundation.iml" filepath="$PROJECT_DIR$/javafundation/javafundation.iml" />
       <module fileurl="file://$PROJECT_DIR$/leakcanary/leakcanary.iml" filepath="$PROJECT_DIR$/leakcanary/leakcanary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mytoolbar/mytoolbar.iml" filepath="$PROJECT_DIR$/mytoolbar/mytoolbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagewidgetdemo/pagewidgetdemo.iml" filepath="$PROJECT_DIR$/pagewidgetdemo/pagewidgetdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinnedheaderexpandablelistview/pinnedheaderexpandablelistview.iml" filepath="$PROJECT_DIR$/pinnedheaderexpandablelistview/pinnedheaderexpandablelistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofit2/retrofit2.iml" filepath="$PROJECT_DIR$/retrofit2/retrofit2.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxserialdemo/rxserialdemo.iml" filepath="$PROJECT_DIR$/rxserialdemo/rxserialdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/singlestonedemo/singlestonedemo.iml" filepath="$PROJECT_DIR$/singlestonedemo/singlestonedemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tdemos/tdemos.iml" filepath="$PROJECT_DIR$/tdemos/tdemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/staticdemo/staticdemo.iml" filepath="$PROJECT_DIR$/staticdemo/staticdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/svgdemo/svgdemo.iml" filepath="$PROJECT_DIR$/svgdemo/svgdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdemos_robolectric/tdemos_robolectric.iml" filepath="$PROJECT_DIR$/tdemos_robolectric/tdemos_robolectric.iml" />
       <module fileurl="file://$PROJECT_DIR$/templatesused/templatesused.iml" filepath="$PROJECT_DIR$/templatesused/templatesused.iml" />
       <module fileurl="file://$PROJECT_DIR$/translucentbar/translucentbar.iml" filepath="$PROJECT_DIR$/translucentbar/translucentbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/utilslib/utilslib.iml" filepath="$PROJECT_DIR$/utilslib/utilslib.iml" />
       <module fileurl="file://$PROJECT_DIR$/utilslib4android/utilslib4android.iml" filepath="$PROJECT_DIR$/utilslib4android/utilslib4android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagercircle/viewpagercircle.iml" filepath="$PROJECT_DIR$/viewpagercircle/viewpagercircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagercircletest/viewpagercircletest.iml" filepath="$PROJECT_DIR$/viewpagercircletest/viewpagercircletest.iml" />
       <module fileurl="file://$PROJECT_DIR$/weakreferenceused/weakreferenceused.iml" filepath="$PROJECT_DIR$/weakreferenceused/weakreferenceused.iml" />
       <module fileurl="file://$PROJECT_DIR$/weakreferenceusednew/weakreferenceusednew.iml" filepath="$PROJECT_DIR$/weakreferenceusednew/weakreferenceusednew.iml" />
     </modules>
