@@ -37,6 +37,7 @@ import io.reactivex.schedulers.Schedulers;
  * ref : 文章 http://gank.io/post/560e15be2dca930e00da1083
  * ref : 文章 http://www.itdadao.com/articles/c15a733258p0.html
  * ref : demo https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
+ * ref : 文章 http://blog.csdn.net/yyh352091626/article/details/53304728
  */
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
